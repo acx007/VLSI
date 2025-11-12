@@ -15,16 +15,6 @@ entity shiftregister is
     );
 end shiftregister;
 
-entity shift_register is
-    Port ( clk      : in  STD_LOGIC;
-           reset    : in  STD_LOGIC;
-           datain   : in  STD_LOGIC_VECTOR (3 downto 0);
-           sel      : in  STD_LOGIC_VECTOR (1 downto 0);
-           sl_in    : in  STD_LOGIC;
-           sr_in    : in  STD_LOGIC;
-           dataout  : out STD_LOGIC_VECTOR (3 downto 0));
-end shift_register;
-
 architecture Behavioral of shift_register is
     signal TEMP : STD_LOGIC_VECTOR (3 downto 0) := (others => '0');
 begin
