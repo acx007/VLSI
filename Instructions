@@ -1,0 +1,31 @@
+File \rightarrow New Project (Give project Name) \rightarrow Next \rightarrow Next \rightarrow New Source \rightarrow VHDL Module (Give File Name) \rightarrow Next
+​Provide pin out from code \rightarrow Next \rightarrow Finish (In, Out, with buses) \rightarrow Next \rightarrow Yes \rightarrow Finish \rightarrow Next \rightarrow Yes
+​Write code in .vhd
+​Go to Synthesis - XST (double click on it) \rightarrow Yes \rightarrow Check Syntax \rightarrow Go to RTL
+​Go to Behavioral (.vhd) right click \rightarrow New source \rightarrow Select Test Bench waveform \rightarrow Give file name \rightarrow Next \rightarrow Next \rightarrow Finish \rightarrow Select single clock
+​Click on blue box for select lines \rightarrow Save
+​Select behavioral simulation from sources for \rightarrow Select (.tb file) \rightarrow Go to Process \rightarrow ISE Simulator \rightarrow Double click on Simulate behavioral
+​Select Synthesis/Implementation from sources for \rightarrow Go to process \rightarrow User Constraints \rightarrow Assign Package pins (double click) \rightarrow Yes \rightarrow Assign from port \rightarrow Save \rightarrow Minimize \rightarrow Process \rightarrow Implement design (double click)
+​Continuation of Steps
+​\rightarrow Generate Programming file (Double click)
+​Connect to hardware
+​Check path & check in file manager copy the bit file and paste it in FPGA download \rightarrow Go to FPGA download & right click to edit \rightarrow Give name of bit file \rightarrow Save \rightarrow Double click on FPGA download
+This is a transcription of the two provided images, which appear to be handwritten notes detailing the steps for a practical experiment or lab using Xilinx software for a Shift Register project, likely involving an FPGA.
+2 Practical - Shift Register using Xilinx
+ * File \rightarrow New Project (Give project Name) \rightarrow Next \rightarrow Next \rightarrow New Source \rightarrow VHDL Module (Give File Name) \rightarrow Next
+ * Provide pin out from code \rightarrow Next \rightarrow Finish (In, Out, with buses) \rightarrow Next \rightarrow Yes \rightarrow Finish \rightarrow Next \rightarrow Yes
+ * Write code in .vhd
+ * Go to Synthesis - XST (double click on it) \rightarrow Yes \rightarrow Check Syntax \rightarrow Go to RTL
+ * Go to Behavioral (.vhd) right click \rightarrow New source \rightarrow Select Test Bench waveform \rightarrow Give file name \rightarrow Next \rightarrow Next \rightarrow Finish \rightarrow Select single clock
+ * Click on blue box for select lines \rightarrow Save
+ * Select behavioral simulation from sources for \rightarrow Select (.tb file) \rightarrow Go to Process \rightarrow ISE Simulator \rightarrow Double click on Simulate behavioral
+ * Select Synthesis/Implementation from sources for \rightarrow Go to process \rightarrow User Constraints \rightarrow Assign Package pins (double click) \rightarrow Yes \rightarrow Assign from port \rightarrow Save \rightarrow Minimize \rightarrow Process \rightarrow Implement design (double click)
+Continuation of Steps
+\rightarrow Generate Programming file (Double click)
+ * Connect to hardware
+ * Check path & check in file manager copy the bit file and paste it in FPGA download \rightarrow Go to FPGA download & right click to edit \rightarrow Give name of bit file \rightarrow Save \rightarrow Double click on FPGA download
+Additional Notes (Appears separate from the main procedure)
+\quad\rightarrow 0 sel \rightarrow \quad a \mathrm{o} / \mathrm{p} as it is
+\quad\rightarrow 1 sel \rightarrow
+\quad\rightarrow FIFO X
+\quad\rightarrow Keypad X
